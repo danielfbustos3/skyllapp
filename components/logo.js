@@ -4,46 +4,34 @@ import { keyframes } from "@emotion/react";
 const Left = keyframes`
 0%, 50% {
   transform: scale(2) translate(13%, -23%);
-  -webkit-transform: translateX(13%);
-  -webkit-transform: -webkit-scale(2);
-  -moz-transform: scale(2) translate(13%, -23%);
+  scale: 2;
+  translate: 13% -23%;
 }
 75% {
   transform: translateX(0) scale(1);
-  -webkit-transform: translateX(0) -webkit-scale(1);
-  -moz-transform: translateX(0) scale(1);
 }
 `;
 const Right = keyframes`
 0%, 50% {
   transform: scale(2) translate(-60%, -23%);
-  -webkit-transform: translateX(-60%);
-  -webkit-transform: -webkit-scale(2);
-  -moz-transform: scale(2) translate(-60%, -23%);
+  scale: 2;
+  translate: 60% -23%;
 }
 75% {
   transform: translateX(0) scale(1);
-  -webkit-transform: translateX(0) -webkit-scale(1);
-  -moz-transform: translateX(0) scale(1);
 }
 `;
 const Text = keyframes`
 0%, 75% {
   opacity: 0;
   transform: translateY(-100%);
-  -webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);
 }
 85% {
   opacity: 1;
   transform: translateY(15%);
-  -webkit-transform: translateY(15%);
-  -moz-transform: translateY(15%);
 }
 100%{
   transform: translateY(0);
-  -webkit-transform: translateY(0);
-  -moz-transform: translateY(0);
 }
 `;
 const LogoContainer = styled.div`
