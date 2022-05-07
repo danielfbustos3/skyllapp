@@ -4,7 +4,8 @@ import { keyframes } from "@emotion/react";
 const Left = keyframes`
 0%, 50% {
   transform: scale(2) translate(13%, -23%);
-  -webkit-transform: -webkit-scale(2) translateX(13%) translateY(-23%);
+  -webkit-transform: translate(13%, -23);
+  -webkit-transform: -webkit-scale(2);
   -moz-transform: scale(2) translate(13%, -23%);
 }
 75% {
@@ -16,6 +17,7 @@ const Left = keyframes`
 const Right = keyframes`
 0%, 50% {
   transform: scale(2) translate(-60%, -23%);
+  -webkit-transform: translate(-60%, -23%);
   -webkit-transform: -webkit-scale(2) translateX(-60%) translateY(-23%);
   -moz-transform: scale(2) translate(-60%, -23%);
 }
