@@ -61,7 +61,7 @@ export default function Home() {
       <Head>
         <title>Skyll Studio Co.</title>
         <meta name="description" content="We build your perfect website" />
-        <link rel="icon" href="/Skyll.ico" />
+        <link rel="icon" href="/Icon.ico" />
       </Head>
 
       <LandingContainer>
