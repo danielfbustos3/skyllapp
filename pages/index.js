@@ -33,11 +33,21 @@ const LandingContainer = styled.main`
   align-items: center;
   svg {
     animation: ${goUp} 3s;
-    height: 150px;
+    height: 70px;
   }
   h1 {
+    font-size: 0.7rem;
     text-align: center;
     animation: ${fadeIn} 3.5s;
+  }
+  @media (min-width: 750px) {
+    svg {
+      animation: ${goUp} 3s;
+      height: 150px;
+    }
+    h1 {
+      font-size: 2rem;
+    }
   }
 `;
 
