@@ -4,19 +4,21 @@ import { keyframes } from "@emotion/react";
 const Left = keyframes`
 0%, 50% {
   transform: scale(2) translate(13%, -23%);
-  translate: 13% -23%;
+  translate: 26% -46%;
 }
 75% {
-  transform: translateX(0) scale(1);
+  transform: scale(1) translateX(0);
+  translate: 0 0;
 }
 `;
 const Right = keyframes`
 0%, 50% {
   transform: scale(2) translate(-60%, -23%);
-  translate: 60% -23%;
+  translate: -120% -46%;
 }
 75% {
   transform: translateX(0) scale(1);
+  translate: 0 0;
 }
 `;
 const Text = keyframes`
