@@ -8,9 +8,13 @@ import { keyframes } from "@emotion/react";
 const goUp = keyframes`
 0%, 70% {
   transform: translateY(60%);
+  -webkit-transform: translateY(60%);
+  -moz-transform: translateY(60%);
 }
 100% {
   transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
 }
 `;
 
